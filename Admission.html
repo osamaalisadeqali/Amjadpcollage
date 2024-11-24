@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التسجيل - كلية الأفق</title>
+</head>
+<body bgcolor="#001F45" text="white">
+    <header>
+        <img src="logo.png" width="150px" alt="شعار كلية الأفق" style="display: block; margin: auto;" />
+        <h1 style="text-align: center;">التسجيل</h1>
+    </header>
+    <nav style="text-align: center; margin: 10px 0;">
+        <a href="index.html" style="margin: 0 15px; color: #99CCFF;">الرئيسية</a>
+        <a href="academics.html" style="margin: 0 15px; color: #99CCFF;">الأكاديميات</a>
+        <a href="admission.html" style="margin: 0 15px; color: #99CCFF;">التسجيل</a>
+        <a href="gallery.html" style="margin: 0 15px; color: #99CCFF;">المعرض</a>
+    </nav>
+    <main style="text-align: center; margin: 20px;">
+        <h2>نموذج التسجيل</h2>
+        <form style="display: inline-block; text-align: left; margin: auto;">
+            <label for="name">الاسم:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="age">العمر:</label><br>
+            <input type="number" id="age" name="age" required><br><br>
+            
+            <label for="address">العنوان:</label><br>
+            <input type="text" id="address" name="address" required><br><br>
+            
+            <label for="email">البريد الإلكتروني:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">رقم الهاتف:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label for="course">الدورة المطلوبة:</label><br>
+            <select id="course" name="course">
+                <option value="english">اللغة الإنجليزية</option>
+                <option value="sociology">علم الاجتماع</option>
+                <option value="computer-science">علوم الحاسوب</option>
+                <option value="mathematics">الرياضيات</option>
+                <option value="business-studies">دراسات الأعمال</option>
+                <option value="accounting">المحاسبة</option>
+            </select><br><br>
+            
+            <input type="submit" value="إرسال">
+        </form>
+    </main>
+    <footer style="background-color: #001F45; color: white; padding: 10px 0; text-align: center; margin-top: 20px;">
+        <p>&copy; 2024 كلية الأفق. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
